@@ -1,0 +1,25 @@
+.header{
+  margin-top: 50px;
+}
+.header h1{
+    font-size: 24px;
+    color: #444444;
+    line-height: 60px;
+    font-weight: 1000;
+  }
+  .header p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #999999;
+    line-height: 25.6px;
+  }
+  .header h4 a{
+    font-size: 22px;
+    color:#444444;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .header h4 a:hover{
+    color: blue;
+    background-color:#DCDCDC;
+  }

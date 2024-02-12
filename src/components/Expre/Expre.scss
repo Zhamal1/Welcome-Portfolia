@@ -1,0 +1,40 @@
+.expre{
+    margin-top: 100px;
+}
+.ma{
+    display: flex;
+    margin-bottom: 35px;
+    
+
+ @media screen and (max-width:500px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+    margin-bottom: 10px;
+ }
+}
+.expre h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #444444;
+    margin-bottom: 20px;
+}
+.norma{
+    @media screen and (max-width:500px) {
+        margin-top: 20px;
+    }
+}
+.norma h3{
+    margin-top: 8px;
+    width: 300px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #666666;
+    line-height: 19px;
+}
+.no-tit{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}

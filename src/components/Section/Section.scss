@@ -1,0 +1,118 @@
+.section{
+    padding-top: 100px;  
+ } 
+ .section-two{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+   grid-gap: 20px;
+} 
+ .busines img{
+    width: 100%;
+    margin-bottom: 10px;
+ }
+ .busines h1{
+   color: #444444;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    @media screen and (max-width:500px) {
+      font-size: 24px;
+   }
+ }
+ .busines p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #999999;
+    line-height: 25.6px;
+
+    @media screen and (max-width:500px) {
+       font-size: 20px;
+   }
+ } 
+ .busines h1 a{
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #444444;
+    cursor: pointer;
+ }
+ .busines h1 a:hover{
+    color: blue;
+    background-color:#DCDCDC;
+ }
+ .simple img{
+    width: 100%;
+    margin-bottom: 10px;
+    @media screen and (max-width:500px) {
+      margin-top: 70px;
+   }
+ }
+ .simple h1{
+   color: #444444;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    @media screen and (max-width:500px) {
+      font-size: 24px;
+   }
+ }
+ .simple p{
+   color: #999999;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 25.6px;
+    @media screen and (max-width:500px) {
+        font-size: 20px;
+ }
+}
+ .simple h1 a{
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+ }
+ .simple h1 a:hover{
+    color: blue;
+    background-color:#DCDCDC;
+ }
+ .musix img{
+    width: 100%;
+    margin-bottom: 10px;
+    @media screen and (max-width:500px) {
+      margin-top: 70px;
+   }
+ }
+ .musix h1{
+   color: #444444;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    @media screen and (max-width:500px) {
+      font-size: 24px;
+   }
+
+ }
+ .musix p{
+   color: #999999;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 25.6px;
+    @media screen and (max-width:500px) {
+    font-size: 20px;
+   }
+ }
+ .musix h1 a{
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+ }
+ .musix h1 a:hover{
+    color: blue;
+    background-color:#DCDCDC;
+ }

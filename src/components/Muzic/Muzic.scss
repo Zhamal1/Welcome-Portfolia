@@ -1,0 +1,105 @@
+.home{
+    position: relative;
+  }             
+  .what-title{
+     font-size: 16px;
+     color: #444444;
+     text-decoration: none;
+     margin-bottom: 50px;
+     margin-top: 30px;
+     margin-left: 20px;
+  }
+  .wicon{
+    position: absolute;
+    margin-left: -20px;
+}
+
+.what h1{
+    font-size: 24px;
+    color: #444444;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    @media screen and (max-width:500px) {
+        font-size: 28px;
+        font-weight: 500;
+    }
+}
+.what p{
+    font-size: 16px;
+    color: #999999;
+    line-height: 25.6px;
+    @media screen and (max-width:500px) {
+        font-size: 20px;
+    }
+}
+.what img{
+    width: 65px;
+    @media screen and (max-width:500px) {
+        width: 40px;
+    }
+}
+.lider{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+.my h2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #444444;
+    margin-bottom: 20px;
+    @media screen and (max-width:500px) {
+        font-size: 28px;
+        font-weight: 500;
+    }
+}
+.my p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #999999;
+    @media screen and (max-width:500px) {
+        font-size: 20px;
+    }
+}
+.search{
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+   grid-gap: 20px;    
+}
+.rame img{
+    @media screen and (max-width:500px) {
+        width: 100%;
+        margin-top:50px ; 
+    }
+}
+.rame h2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #444444;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    @media screen and (max-width:500px) {
+        font-size: 28px;
+        font-weight: 500;
+    }
+}
+.rame p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #999999;
+    line-height: 25.6px;
+    @media screen and (max-width:500px) {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+}
+.busi img{
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    @media screen and (max-width:500px) {
+        margin-top: 50px;
+    }
+}

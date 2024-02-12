@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    @media screen and (max-width:500px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+    }
+}
+.made{
+    font-size: 14px;
+    font-weight: 300;
+    color: #999999;  
+    @media screen and (max-width:500px) {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}      
+.list{
+    display: flex;
+    grid-gap: 20px;
+}
+.link li{
+    font-size: 14px;
+    display: grid;
+    grid-gap: 10px;
+    font-weight: 300;
+    color: #999999;
+    list-style: none;
+    @media screen and (max-width:500px) {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,21 @@
+.work{
+    padding-top: 100px;  
+    width: 100%;
+}
+.work h1{
+    font-size: 24px;
+    color: #444444;
+    line-height: 60px;
+    font-weight: 1000;
+}
+.work-puc{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    @media screen and (max-width:500px) {
+        grid-template-columns: 1fr;
+    }
+}
+.work img{
+    width: 100%;
+}
